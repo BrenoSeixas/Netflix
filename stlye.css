@@ -1,0 +1,16 @@
+/* -----ULTILITÁRIOS----- */
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7
+}
+
+/* -----Cabecalho----- */
+
+.Cabecaclo-Inicio-1 h1{
+  color: red;
+}
+
+.Cabecaclo-Inicio-2 h2{
+color: white;
+}
