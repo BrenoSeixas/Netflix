@@ -8,37 +8,47 @@ body{
 /* -----Cabecalho----- */
 
 
-.Cabecaclo-Inicio{
-display: flex;
+.Cabecaclo-Container{
+  align-items: center;
+  padding: 10px;
+}
+
+.Cabecaclo-Inicio-1{
   background-color: green;
-}
-.cabecaclo-conteudo{
-  background-color: aqua;
+  width: 100%;
+  display: flex;
+  place-content: space-between;
+  }
   
-}
-.Cabecaclo-Inicio h1{
-  /* display: inline; */
+.Cabecaclo-Inicio-1 h1{
+  display: inline;
   color: red;
+  border: solid 1px;
 }
 
+.Cabecaclo-Inicio-2{
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  border: solid 1px;
+}
+  
 
-.Cabecaclo-Inicio h2{
+
+.Cabecaclo-Inicio-2 h2{
 color: white;
 background-color: black;
-display: inline-block;
-/* padding: 2px 6px; */
+padding: 2px 6px;
 border-radius: 4px;
 font-size: 14px;
-font-weight: 10px;
 
 }
 
-.Cabecaclo-Inicio a{
+.Cabecaclo-Inicio-2 a{
 background-color: red;
 color: white;
 text-decoration: none;
-/* padding: 2px 6px; */
 border-radius: 4px;
 font-size: 14px;
-font-weight: 10px;
+padding: 2px 6px ;
 }
