@@ -167,3 +167,29 @@ text-align: center;
 .Em-alta-Filmes img {
   border-radius: 10px;
 }
+
+/* -----Motivos-para-assinar----- */
+.Motivos-para-assinar{
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  gap: 20px;
+}
+
+ .Motivos-para-assinar-item{
+  background-image: linear-gradient( to bottom,purple, blue );
+  height: 40vh;
+  border-radius: 10px;
+ }
+
+ .Motivos-para-assinar-item img{
+  position: relative;
+  top: 20px;
+  left: 100px;
+  width: 100px;
+  /* border: solid 10px green; */
+ }
+
+ /* -----Perguntas-frequentes----- */
+
+
