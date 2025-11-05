@@ -4,7 +4,7 @@ Este é um projeto de estudo que replica a interface principal da Netflix usando
 
 ## 📸 Preview
 
-[[![Preview do Projeto](./Imagens%20usadas/Print.png)](https://netflix-dthd3suel-brenoseixas-projects.vercel.app/)](https://netflix-dthd3suel-brenoseixas-projects.vercel.app/)
+[[![Preview do Projeto](./Imagens%20usadas/Print.png)](https://netflix-inky-eta.vercel.app/)](https://netflix-dthd3suel-brenoseixas-projects.vercel.app/)
 
 ## 🚀 Tecnologias Utilizadas
 
