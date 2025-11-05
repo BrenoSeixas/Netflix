@@ -1,7 +1,7 @@
 /* -----ULTILITÁRIOS----- */
 :root{
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
 }
 
 body{
@@ -17,7 +17,7 @@ body{
   );
   background-size: cover;
   height: 100vh;
-  margin: 0px;
+  margin: 0%;
 }
 
 .Cabecaclo-Container{
@@ -33,11 +33,12 @@ body{
 .Cabecaclo-Inicio-1 h1{
   display: inline;
   color: red;
+  text-shadow: 1px 0rem 5px black;
 }
 
 .Cabecaclo-Inicio-2{
-  gap: 20px;
-  padding: 20px;
+  gap: 20%;
+  padding: 3%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,9 +47,9 @@ body{
 .Cabecaclo-Inicio-2 h2{
 color: white;
 background-color: black;
-padding: 2px 6px;
-border-radius: 4px;
-font-size: 14px;
+padding: 1vh 2vh;
+border-radius: 8%;
+font-size: clamp(0.6rem, 0.8rem, 1.2rem);
 border: solid 1px gray;
 }
 
@@ -56,9 +57,9 @@ border: solid 1px gray;
 background-color: red;
 color: white;
 text-decoration: none;
-border-radius: 4px;
-font-size: 14px;
-padding:2px 6px;
+border-radius: 8%;
+font-size: clamp(0.6rem, 0.8rem, 1.2rem);
+padding: 1vh 2vh;
 }
 
 /* -----Cadastro----- */
@@ -72,35 +73,44 @@ text-align: center;
 }
 
 .Cadastro-1 h1{
-  font-size: 50px;
+  font-size: clamp(2.5rem, 3.1rem, 3.4rem);
+  text-shadow: 1px 0rem 5px black;
+}
+
+.Cadastro-1 h2{
+  text-shadow: 1px 0rem 5px black;
 }
 
 /* -----Email----- */
 
 .Email{
   color: white;
-  margin-top: 30px;
+  margin-top: 1%;
   text-align: center;
+}
+
+.Email p{
+  text-shadow: 1px 0px 5px black;
 }
 
 .Email span{
   display: inline-block;
   background-color: black;
   border: solid 1px gray;
-  border-radius: 4px;
-  padding: 9px 300px ;
-  padding-left: 4px;
-  font-size: 15px;
+  border-radius: 3%;
+  padding: 0.8vw 25vw ;
+  padding-left: 0.7%;
+  font-size: clamp(0.6rem, 0.8rem, 1.2rem);
 }
 
 .Email a{
   display: inline-block;
   background-color: red;
-  border-radius: 4px;
+  border-radius: 5%;
   color: white;
   text-decoration: none;
-  padding: 8px 10px;
-  font-size: 20px;  
+  padding: 0.9vw 1vw;
+  font-size: clamp(0.6rem, 0.8rem, 1.2rem);
   margin-bottom: 0px;
 }
 
@@ -109,51 +119,48 @@ text-align: center;
 .BackGround-2{
   background-color: black;
   color: white;
-  margin: 0px;
+  margin: 0vw;
 }
 
 /* -----Saiba mais----- */
 
 .Saiba-mais{
   display: flex;
-  /* flex-wrap: wrap; */
   place-content: center;
-  /* border: solid 1px green; */
-  margin-bottom: 40px;
+  margin-bottom: 4%;
 }
 
 .Saiba-mais img{
   display: inline-block;
-  width: 80px;
-  height: 120px;
-  margin-top: 20px;
+  width: 8vw;
+  height: 16vh;
+  margin-top: 1%;
 }
 
 .Saiba-mais-descricao{
-  margin-top: 20px;
+  margin-top: 1%;
   background-image: linear-gradient(to right, blue, purple);
-  border-radius: 10px;
-  padding: 8px 24px;
-  height: 100px;
+  border-radius: 4%;
+  padding: 0.5% 0.7%;
+  height: 15vh;
   margin-bottom: 40px;
 }
 
 .Saiba-mais-descricao h2{
-  font-size: 24px;
+  font-size: clamp(1.2rem, 1.5rem, 1.8rem);
 }
 
 .Saiba-mais-descricao span{
-  font-size: 16px;
+  font-size: clamp(0.8rem, 1.2rem, 1.5rem);
 }
 
 .Saiba-mais-descricao a{
-  /* border: solid 1px red; */
   color: white;
   background-color: gray;
-  padding: 4px 8px;
+  padding: 0.5vw 0.8vh;
   text-decoration: none;
-  border-radius: 4px;
-  margin-bottom: 0px;
+  border-radius: 4%;
+  margin-bottom: 0vw;
 }
 
 /* -----Em-alta----- */
@@ -161,12 +168,16 @@ text-align: center;
 .Em-alta-Filmes{
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 1.5%;
   place-content: center;
 }
 
+#em-alta{
+  margin-left: 3%;
+}
+
 .Em-alta-Filmes img {
-  border-radius: 10px;
+  border-radius: 10%;
 }
 
 /* -----Motivos-para-assinar----- */
@@ -177,18 +188,14 @@ text-align: center;
   gap: 20px;
 }
 
+#motivos{
+  margin-left: 3%;
+}
+
  .Motivos-para-assinar-item{
   background-image: linear-gradient( to bottom,purple, blue );
-  height: 40vh;
-  border-radius: 10px;
- }
-
- .Motivos-para-assinar-item img{
-  position: relative;
-  top: 20px;
-  left: 100px;
-  width: 100px;
-  /* border: solid 10px green; */
+  height: 30vh;
+  border-radius: 10%;
  }
 
  /* -----Perguntas-frequentes----- */
@@ -196,12 +203,12 @@ text-align: center;
 .Perguntas-frequentes-item dt{
   background-color: white;
   color: black;
-  border-radius: 4px;
-  margin: 10px 5px;
+  border-radius: 4%;
+  margin: 1vw 1.5vh;
 }
  .Perguntas-frequentes-item{
   background-color: gray;
-  margin: 20px 0px;
+  margin: 2vw 0vh;
   border-radius: 4px;
  }
 
@@ -209,7 +216,5 @@ text-align: center;
 
  .Cadastro-2{
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2%;
  }
-
-
